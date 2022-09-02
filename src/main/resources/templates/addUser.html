@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+    <html xmlns:th="http://www.thymeleaf.org">
+<link rel="shortcut icon" href="../resources/favicon.ico" th:href="@{/static/favicon.ico}"/>
+<head>
+<!--    <meta charset="UTF-8">-->
+    <title>用户增加界面</title>
+</head>
+<body>
+<form th:action="@{/user/addUser}" method="post">
+    <input type="text" name="username" placeholder="请输入用户名"><br/>
+    <input type="text" name="password" placeholder="请输入密码"><br/>
+    <input type="submit" value="提交"><br/>
+</form>
+</body>
+</html>

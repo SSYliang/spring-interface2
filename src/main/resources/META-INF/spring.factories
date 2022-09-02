@@ -1,0 +1,5 @@
+#org.springframework.context.ApplicationContextInitializer=com.interfacetest.interfacetest2.initializer.FirstInitializer
+
+org.springframework.boot.env.EnvironmentPostProcessor=com.interfacetest.interfacetest2.util.MyEnvironmentPropertySource
+
+#EnvironmentPostProcessor??????key????????value
